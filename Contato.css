@@ -1,0 +1,171 @@
+.bao{
+    margin-left: 0%;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+    margin-left: 0%;
+}
+
+h5{
+    color: #ffffff;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.caixa{
+    position: relative;
+    width: 900px;
+    margin:  0 auto;
+}
+
+header{
+    background: #BBBBBB;
+    padding:  20px 0;
+    margin-left: 0%;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 11px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: nome;
+}
+
+nav a:hover {
+    color: #006600;
+    text-decoration: underline;
+}
+
+.meio h1{
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #6C4B00;
+    margin-left: 7%;
+} 
+
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #6C4B00;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+main{
+    background-color: #FFA500;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #A3610E;
+    margin-top: 2%;
+    margin-left: 22%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #A3610E;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #A3610E;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #A3610E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #804707;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #A3610E;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.receba h1{
+    text-align: center;
+    font-size: 40px;
+}

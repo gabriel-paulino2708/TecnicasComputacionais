@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="Contato.css">
+  </head>
+
+  <div class="bao">
+   <header>
+    <div class="caixa">
+      <h1><img width="600px" height="300px" src="logo.jpeg"></h1>
+           <nav>
+            <ul>
+              <li><a href="DominioDoBolo.html">Home</a></li>
+              <li><a href="Produtos.html">Produtos</a></li>
+              <li><a href="Contato.html">Pedido</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+  </div>
+
+    <main>  
+        <div>
+            <h1 id="titulo">Cadastro de Pedido</h1>
+            <p id="subtitulo">Complete as informações</p>
+            <br>
+        </div>
+
+          <form>
+            <input type="hidden" name="accessKey" value="18125710-164a-4cbc-b19f-e8401fabb716">
+             <input type="hidden" name="redirectTo" value="obrigado.html">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="text" name="telefone" id="telefone" required>
+                </div>
+            </fieldset>
+
+
+
+            <div class="campo">
+                <label><strong>Qual tipo de bolo você quer?</strong></label>
+                <label>
+                    <input type="radio" name="bolo" value="bolopadrao" checked>Bolo Padrão
+                </label>
+                <label>
+                    <input type="radio" name="bolo" value="bolocomcobertura">Bolo com Cobertura
+                </label>
+                <label>
+                    <input type="radio" name="bolo" value="boloconfeitado">Bolo Confeitado
+                </label>
+            </div>
+
+            <div class="campo">
+                <label><strong>Qual massa de bolo você quer?</strong></label>
+                <label>
+                    <input type="radio" name="massa" value="bolochocolate" checked>Bolo de Chocolate
+                </label>
+                <label>
+                    <input type="radio" name="massa" value="bolobaunilha">Bolo de Baunilha
+                </label>
+                <label>
+                    <input type="radio" name="massa" value="bolocenoura">Bolo de Cenoura
+                </label>
+            </div>
+
+            <div class="campo">
+                <label><strong>Qual cobertura de bolo você quer?(Só selecione se tiver escolhido a opção Bolo com Cobertura ou Bolo Confeitado)</strong></label>
+                <label>
+                    <input type="radio" name="cobertura" value="" checked>Sem Cobertura (Bolo Padrão)
+                </label>
+                <label>
+                    <input type="radio" name="cobertura" value="coberturachocolate">Cobertura de Chocolate
+                </label>
+                <label>
+                    <input type="radio" name="cobertura" value="coberturachantilly">Cobertura de Chantilly
+                </label>
+                <label>
+                    <input type="radio" name="cobertura" value="coberturabranco">Cobertura de Chocolate Branco
+                </label>
+            </div>
+
+            <div class="campo">
+                <label><strong>Qual recheio de bolo você quer?(Só selecione se tiver escolhido a opção Bolo Confeitado)</strong></label>
+                <label>
+                    <input type="radio" name="recheio" value="" checked>Sem Recheio (Bolo Padrão ou Bolo com Cobertura)
+                </label>
+                <label>
+                    <input type="radio" name="recheio" value="recheiobrigadeiro">Recheio de Brigadeiro
+                </label>
+                <label>
+                    <input type="radio" name="recheio" value="recheiobranco">Recheio de Brigadeiro Branco
+                </label>
+                <label>
+                    <input type="radio" name="recheio" value="recheioprestigio">Recheio de Prestígio
+                </label>
+            </div>
+
+             <div class="campo">
+                <br>
+                <label for="endereco"><strong>Endereço para entrega: </strong></label>
+                <textarea rows="6" style="width: 26em" id="endereco" name="endereco" required></textarea>
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="pesodobolo"><strong>Preencha com o peso do bolo: </strong></label>
+                <textarea rows="6" style="width: 26em" id="pesodobolo" name="pesodobolo" required></textarea>
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="observacao"><strong>Observações: (Caso queira algum adcional coloque aqui) </strong></label>
+                <textarea rows="6" style="width: 26em" id="observacao" name="observacao"></textarea>
+            </div>
+
+            <br>
+
+            <button class="botao" type="submit" onsubmit="">Concluído</button>  
+  
+        </form>
+
+    </main>
+      <br>
+      <br>
+      <br>
+
+    <div class="bao">
+   <footer>
+      <h5>Rua Maria das Graças Molina n120, Bairro Panorama </h5>
+      <h5>Telefone para pedidos(44)991660526</h5>
+      <h5><p><a data-fr-linked="true" href="https://www.instagram.com/dominiodobolo/"> https://www.instagram.com/dominiodobolo/</a></a></p></h5>
+      <p class="copyright">&copy; Copyright  Domínio do Bolo -  2022</p>
+    </footer> 
+    </div>
+
+<body bgcolor="Orange">                                 
+
+  </html>
